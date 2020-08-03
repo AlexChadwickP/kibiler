@@ -1,0 +1,24 @@
+{
+  "name": "kibiler",
+  "version": "0.1.0",
+  "description": "A project management system written in Javascript",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexChadwickP/kibiler.git"
+  },
+  "author": "Alex Chadwick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexChadwickP/kibiler/issues"
+  },
+  "homepage": "https://github.com/AlexChadwickP/kibiler#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.0",
+    "pug": "^3.0.0"
+  }
+}
